@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Admin Dashboard</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header class="navbar"><h2>Admin Dashboard</h2><nav><a href="index.html">Portfolio</a><a href="#" id="logoutAdmin">Logout</a></nav></header>
+<main class="section">
+  <h2>Manage Projects</h2>
+  <form id="projectForm" class="form">
+    <input id="projectTitle" placeholder="Project Title" required>
+    <textarea id="projectDescription" placeholder="Project Description" required></textarea>
+    <button class="btn" type="submit">Add Project</button>
+  </form>
+  <div id="adminProjectList" class="grid"></div>
+
+  <h2 class="top-gap">Contact Messages</h2>
+  <div id="messageList"></div>
+</main>
+<script src="js/script.js"></script>
+</body>
+</html>

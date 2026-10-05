@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rupesh | Personal Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <h2>Rupesh Portfolio</h2>
+    <nav>
+      <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+      <a href="#projects">Projects</a><a href="#contact">Contact</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div>
+        <p class="tag">B.Tech CSE Student</p>
+        <h1>Hello, I'm <span>Rupesh</span></h1>
+        <p>I am a Computer Science student interested in web development and programming.</p>
+        <a class="btn" href="#projects">View Projects</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>I am a B.Tech CSE student. I enjoy learning programming, building projects, watching movies and playing games.</p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div class="card">HTML</div><div class="card">CSS</div>
+        <div class="card">JavaScript</div><div class="card">Python</div>
+        <div class="card">C</div><div class="card">Java</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div id="projectList" class="grid"></div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <form id="contactForm" class="form">
+        <input id="contactName" placeholder="Your Name" required>
+        <input id="contactEmail" type="email" placeholder="Your Email" required>
+        <textarea id="contactMessage" placeholder="Your Message" required></textarea>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer><p>© 2026 Rupesh Portfolio</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
